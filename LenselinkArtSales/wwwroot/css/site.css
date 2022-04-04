@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+main {
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+.container
+{
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+img
+{
+    max-width: 300px;
+}
+
+img.thumbnail {
+    max-width: 100px;
+}
+
+form{
+    margin-left:1em;
+}

@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h1>Welcome to Art Sales</h1>
+<br />
+<p>Your online art gallery</p>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="list-group">
+            <a asp-controller="Product" asp-action="List"
+               class="list-group-item">Browse the Gallery</a>
+            <a asp-controller="Home" asp-action="About"
+               class="list-group-item">Learn more about Art Sales</a>
+        </div>
+    </div>
+</div>

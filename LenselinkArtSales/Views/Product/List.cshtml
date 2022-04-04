@@ -1,0 +1,42 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Product List";
+}
+
+<h1>Product List</h1>
+<div class="row">
+
+    <div class="col-sm-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th></th>
+                    <th></th>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td><a asp-controller="Product" asp-action="Details"
+                               asp-route-id="@product.Id"
+                               asp-route-slug="@product.Id"><img class="thumbnail" src="@product.ImageURL"/></a></td>
+                        <td>@product.Title</td>
+                        <td>@product.Description</td>
+                        <td>
+                            <a asp-controller="Product" asp-action="Details"
+                               asp-route-id="@product.Id"
+                               asp-route-slug="@product.Id">View Details</a>
+                        </td>
+                        <td>
+                            <a asp-controller="Cart" asp-action="Add"
+                               asp-route-id="@product.Title">Add to Cart</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

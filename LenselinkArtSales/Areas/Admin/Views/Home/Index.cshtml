@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+
+<h1>Art Sales Admin Portal</h1>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="list-group">
+            <a asp-controller="Product" asp-action="Index"
+               class="list-group-item">Manage Products</a>
+        </div>
+        <div class="list-group">
+            <a asp-controller="User" asp-action="Index"
+               class="list-group-item">Manage Users</a>
+        </div>
+        <div class="list-group">
+            <a asp-controller="Order" asp-action="Index"
+               class="list-group-item">Manage Orders</a>
+        </div>
+    </div>
+</div>

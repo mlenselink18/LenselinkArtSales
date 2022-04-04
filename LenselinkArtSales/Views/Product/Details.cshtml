@@ -1,0 +1,26 @@
+﻿@model Product
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<h1>Product Details</h1>
+<div class="row">
+    <div class="col-sm-4">
+        <a href="@Model.ImageURL" target="_blank"><img src="@Model.ImageURL" 
+             alt="@Model.Title Image" 
+             class="img-responsive center-block"/></a>
+    </div>
+
+    <div class="col-sm-8">
+        <h2>@Model.Title</h2>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <td>Art Description:</td>
+                <td>@Model.Description</td>
+            </tr>
+        </table>
+        <a asp-controller="Cart" asp-action="Add"
+            asp-route-id="@Model.Title" class="btn btn-primary">Add to Cart</a>
+        
+    </div>
+</div>

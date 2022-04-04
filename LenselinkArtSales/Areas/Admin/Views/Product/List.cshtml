@@ -1,0 +1,48 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Product Manager";
+}
+
+<h1>@ViewBag.Title</h1>
+<div class="row">
+    <div class="col-sm-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Active</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td><img class="thumbnail" src="@p.ImageURL"/></td>
+                        <td>@p.Title</td>
+                        <td>@p.Description</td>
+                        <td>@p.Active</td>
+                        <td>
+                            <a asp-action="Update"
+                               asp-route-id="@p.Id">Update</a>
+                        </td>
+                        <td>
+                            <a asp-action="Delete"
+                               asp-route-id="@p.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @{ 
+            string userMessage = TempData?["UserMessage"]?.ToString() ?? ""; 
+        }
+        @if (userMessage != "") {
+            <div class="text-success">@userMessage</div>
+        }
+        <a asp-action="Add" class="btn btn-primary">Add New Product</a>
+    </div>
+</div>

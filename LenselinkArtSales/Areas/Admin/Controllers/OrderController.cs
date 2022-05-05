@@ -65,7 +65,7 @@ namespace LenselinkArtSales.Areas.Admin.Controllers
                 newItemProduct.product = product;
                 itemProductList.Add(newItemProduct);
             }
-            model.ItemsProducts = itemProductList;
+            model.OrderItemsProducts = itemProductList;
             //OrderItemsListView.order = order;
             //OrderItemsListView.orderItems = OrderItems.ToList();
 

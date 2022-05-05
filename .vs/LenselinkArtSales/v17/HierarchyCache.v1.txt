@@ -3,25 +3,11 @@ i:{00000000-0000-0000-0000-000000000000}:LenselinkArtSales.sln
 ++LenselinkArtSales
 i:{00000000-0000-0000-0000-000000000000}:LenselinkArtSales
 ++Connected Services 
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1001
-++SQL Server Database (ConnectionStrings:SalesContext)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1032
-++SQL Server Express LocalDB (Local) (ConnectionStrings:LenselinkArtSalesContextConnection)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1030
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1084
 ++Dependencies
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1000
-++Analyzers
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:analyzers
-++Frameworks
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:frameworks
-++Packages
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:packages
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1086
 ++Properties
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\properties\
-++launchSettings.json
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\properties\launchsettings.json
-++serviceDependencies.json
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\properties\servicedependencies.json
 ++wwwroot
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\
 ++css
@@ -32,106 +18,134 @@ i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 20
 ++js
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\js\
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\dist\js\
+++site.js
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\js\site.js
 ++lib
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\
+++Media
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\
 ++favicon.ico
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\favicon.ico
 ++Areas
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\
+++Account
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\
+++Controllers
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\controllers\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\controllers\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\
+++AccountController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\controllers\accountcontroller.cs
+++IdentityController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\controllers\identitycontroller.cs
+++Data
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\data\
+++LenselinkArtSalesContext.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\data\lenselinkartsalescontext.cs
+++LenselinkArtSalesUser.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\data\lenselinkartsalesuser.cs
+++Pages
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\
+++_ValidationScriptsPartial.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\_validationscriptspartial.cshtml
+++_ViewImports.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\_viewimports.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\_viewimports.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\_viewimports.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\_viewimports.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\_viewstart.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\_viewstart.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\_viewstart.cshtml
+++IdentityHostingStartup.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\identityhostingstartup.cs
 ++Admin
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\
-++Controllers
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\controllers\
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\controllers\
+++Content
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\
+++CartController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\controllers\cartcontroller.cs
 ++HomeController.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\homecontroller.cs
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\controllers\homecontroller.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\homecontroller.cs
 ++ProductController.cs
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\controllers\productcontroller.cs
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\productcontroller.cs
-++Views
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\
-++Home
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\home\
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\home\
-++Product
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\product\
-++Shared
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shared\
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\shared\
-++_AdminLayout.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shared\_adminlayout.cshtml
-++_ViewImports.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\_viewimports.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\_viewimports.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\_viewimports.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\_viewimports.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\_viewimports.cshtml
-++_ViewStart.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\_viewstart.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\_viewstart.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\_viewstart.cshtml
-++Identity
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\
-++AccountController.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\controllers\accountcontroller.cs
-++Data
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\data\
-++LenselinkArtSalesContext.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\data\lenselinkartsalescontext.cs
-++LenselinkArtSalesUser.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\data\lenselinkartsalesuser.cs
-++Pages
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\
-++Account
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\
-++Manage
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\
-++_ManageNav.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\_managenav.cshtml
-++ChangePassword.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\changepassword.cshtml
-++Email.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\email.cshtml
-++ManageNavPages.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\managenavpages.cs
-++PersonalData.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\personaldata.cshtml
-++SetPassword.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\setpassword.cshtml
-++ForgotPassword.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\forgotpassword.cshtml
-++Login.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\login.cshtml
-++Logout.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\logout.cshtml
-++Register.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\register.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\_validationscriptspartial.cshtml
-++IdentityHostingStartup.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\identityhostingstartup.cs
 ++Models
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\
+++ArtSalesContext.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\artsalescontext.cs
+++ChangeLog.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\changelog.cs
+++Comment.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\comment.cs
+++Login.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\login.cs
+++Order.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\order.cs
+++OrderItem.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\orderitem.cs
+++OrderItemListViewModel.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\orderitemlistviewmodel.cs
+++OrderItemProduct.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\orderitemproduct.cs
+++OrderListViewModel.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\orderlistviewmodel.cs
+++PrintSize.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\printsize.cs
+++Product.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\product.cs
+++ProductImage.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\productimage.cs
+++ProductImageListView.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\productimagelistview.cs
+++ProductListViewModel.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\productlistviewmodel.cs
+++SecurityQuestion.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\securityquestion.cs
+++SecurityRole.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\securityrole.cs
+++ShippingCompany.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\shippingcompany.cs
+++TableName.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\tablename.cs
+++User.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\user.cs
+++UserListViewModel.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\userlistviewmodel.cs
+++Views
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\
+++Cart
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\cart\
+++Home
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\home\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\home\
 ++About.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\home\about.cshtml
 ++Index.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\home\index.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\home\index.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\cart\index.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\home\index.cshtml
+++Product
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\product\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\
 ++Details.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\product\details.cshtml
 ++List.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\product\list.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\order\list.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\list.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\list.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shipping\list.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\size\list.cshtml
+++Shared
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\shared\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shared\
 ++_Layout.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\shared\_layout.cshtml
-++_Layout.cshtml.css
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\shared\_layout.cshtml.css
 ++_LoginPartial.cshtml
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\shared\_loginpartial.cshtml
 ++appsettings.json
@@ -142,8 +156,57 @@ i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 20
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\scaffoldingreadme.txt
 ++Startup.cs
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\startup.cs
-++SQL Server Database dependency with connectionId 'ConnectionStrings:SalesContext' is detected
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1033
+++SQL Server Express LocalDB (Local) (ConnectionStrings:LenselinkArtSalesContextConnection)
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1119
+++Analyzers
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:analyzers
+++Frameworks
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:frameworks
+++Packages
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:packages
+++launchSettings.json
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\properties\launchsettings.json
+++serviceDependencies.json
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\properties\servicedependencies.json
+++bootstrap
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\
+++jquery
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery\
+++jquery-validation
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation-unobtrusive\
+++Images
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\
+++Manage
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\
+++_ManageNav.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\_managenav.cshtml
+++ChangePassword.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\changepassword.cshtml
+++Email.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\email.cshtml
+++ManageNavPages.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\managenavpages.cs
+++PersonalData.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\personaldata.cshtml
+++SetPassword.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\setpassword.cshtml
+++ForgotPassword.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\forgotpassword.cshtml
+++Login.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\login.cshtml
+++Logout.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\logout.cshtml
+++Register.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\register.cshtml
+++Add.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\cart\add.cshtml
+++_Layout.cshtml.css
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\appsettings.development.json
 ++MessagePackAnalyzer
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
 ++Microsoft.AspNetCore.Analyzers
@@ -179,83 +242,21 @@ i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 20
 ++Microsoft.NETCore.App
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\microsoft.netcore.app
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1026
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1100
 ++Microsoft.AspNetCore.Identity.UI (6.0.2)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1029
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1103
 ++Microsoft.EntityFrameworkCore (6.0.3)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1023
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1097
 ++Microsoft.EntityFrameworkCore.Design (6.0.3)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1025
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1099
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1024
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1098
 ++Microsoft.EntityFrameworkCore.Tools (6.0.2)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1027
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1101
 ++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1028
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:>1102
 ++serviceDependencies.local.json
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\properties\servicedependencies.local.json
-++site.js
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\js\site.js
-++bootstrap
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\
-++jquery
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery\
-++jquery-validation
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation-unobtrusive\
-++AddUpdate.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\addupdate.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\addupdate.cshtml
-++Delete.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\delete.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\delete.cshtml
-++ChangePassword.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\changepassword.cshtml.cs
-++Email.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\email.cshtml.cs
-++PersonalData.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\personaldata.cshtml.cs
-++SetPassword.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\manage\setpassword.cshtml.cs
-++ForgotPassword.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\forgotpassword.cshtml.cs
-++Login.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\login.cshtml.cs
-++Logout.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\logout.cshtml.cs
-++Register.cshtml.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\identity\pages\account\register.cshtml.cs
-++ArtSalesContext.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\artsalescontext.cs
-++ChangeLog.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\changelog.cs
-++Comment.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\comment.cs
-++Login.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\login.cs
-++Order.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\order.cs
-++OrderItem.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\orderitem.cs
-++PrintSize.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\printsize.cs
-++Product.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\product.cs
-++ProductImage.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\productimage.cs
-++SecurityQuestion.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\securityquestion.cs
-++SecurityRole.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\securityrole.cs
-++ShippingCompany.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\shippingcompany.cs
-++TableName.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\tablename.cs
-++User.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\user.cs
-++appsettings.Development.json
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\appsettings.development.json
 ++dist
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\dist\
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery\dist\
@@ -269,6 +270,54 @@ i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 20
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation\license.md
 ++jquery.validate.unobtrusive.js
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++Coastline.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\coastline.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\coastline.jpg
+++Coastline2.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\coastline2.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\coastline2.jpg
+++ComingSoon.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\comingsoon.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\comingsoon.jpg
+++MountainSunset.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\mountainsunset.jpg
+++RainbowMountain.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\rainbowmountain.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\rainbowmountain.jpg
+++SandDunes.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\sanddunes.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\sanddunes.jpg
+++SandDunes2.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\media\images\sanddunes2.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\sanddunes2.jpg
+++ChangePassword.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\changepassword.cshtml.cs
+++Email.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\email.cshtml.cs
+++PersonalData.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\personaldata.cshtml.cs
+++SetPassword.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\manage\setpassword.cshtml.cs
+++ForgotPassword.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\forgotpassword.cshtml.cs
+++Login.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\login.cshtml.cs
+++Logout.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\logout.cshtml.cs
+++Register.cshtml.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\account\pages\account\register.cshtml.cs
+++OrderController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\ordercontroller.cs
+++UserController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\usercontroller.cs
+++Order
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\order\
+++User
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\
+++MountainSunset2.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\mountainsunset2.jpg
+++MoutainSunset.jpg
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\content\images\moutainsunset.jpg
 ++jquery.js
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery\dist\jquery.js
 ++additional-methods.js
@@ -277,6 +326,25 @@ i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 20
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 ++jquery.validate.unobtrusive.min.js
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++AddOrder.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\order\addorder.cshtml
+++AddOrderItem.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\order\addorderitem.cshtml
+++AddUpdate.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\order\addupdate.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\addupdate.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\addupdate.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shipping\addupdate.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\size\addupdate.cshtml
+++Delete.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\delete.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\delete.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shipping\delete.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\size\delete.cshtml
+++ImagePartial.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\product\imagepartial.cshtml
+++_AdminLayout.cshtml
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shared\_adminlayout.cshtml
 ++bootstrap.css
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 ++bootstrap-grid.css
@@ -373,19 +441,15 @@ i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 20
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++bootstrap.esm.min.js.map
 i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-++ProductControllerOld.cs
+++IdentityRole.cs
 ++NewFolder
-++Cart
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\cart\
-++Add.cshtml
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\views\cart\add.cshtml
-++CartController.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\controllers\cartcontroller.cs
-++User
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\user\
-++UserController.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\usercontroller.cs
-++UserListViewModel.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\userlistviewmodel.cs
-++ProductListViewModel.cs
-i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\models\productlistviewmodel.cs
+++ShippingCompanuy
+++ShippingCompany
+++Shipping
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\shipping\
+++ShippingController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\shippingcontroller.cs
+++Size
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\views\size\
+++SizeController.cs
+i:{e1b83720-00f0-4c7c-b860-a5c66f8c7e49}:c:\users\mlens\documents\witc\spring 2022\app dev\lenselinkartsales\lenselinkartsales\areas\admin\controllers\sizecontroller.cs

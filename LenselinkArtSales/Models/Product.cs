@@ -28,7 +28,7 @@ namespace LenselinkArtSales.Models
             {
                 var display = "https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/288/2019/03/28062612/Image-Coming-Soon-Placeholder.png";
 
-                if(ImageFilePath != null)
+                if(ImageFilePath != null && ImageFilePath.Trim() != "")
                 {
                     display = ImageFilePath;
                 }

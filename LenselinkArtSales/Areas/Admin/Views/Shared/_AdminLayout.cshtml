@@ -9,10 +9,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewBag.Title - Art Sales - Admin</title>
+    <title>@ViewData["Title"] - Art Sales - Admin</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ArtSales.styles.css" asp-append-version="true" />
+    <link rel="scripts" href="~/js/site.js" asp-append-version="true" />
     @RenderSection("scripts", false)
 </head>
 <body>
@@ -45,14 +45,14 @@
                 </div>
                 <div class="navbar-nav navbar-right">
                     <a class="nav-link"
-                       asp-area="" asp-controller="Home" asp-action="Index">View Site</a>
+                       asp-area="" asp-controller="Home" asp-action="Index">View Main Site</a>
                 </div>
             </nav>
         </nav>
     </header>
     <br />
     <div class="container">
-        <main>
+        <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
@@ -61,5 +61,7 @@
         <hr />
         <p>&copy; @DateTime.Now.Year - Art Sales</p>
     </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="~/js/site.js"></script>
 </body>
 </html>

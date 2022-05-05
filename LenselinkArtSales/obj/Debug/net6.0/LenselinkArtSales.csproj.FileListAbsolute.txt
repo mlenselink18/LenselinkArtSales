@@ -1,4 +1,3 @@
-C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.csproj.AssemblyReference.cache
 C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.AssemblyInfoInputs.cache
 C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.AssemblyInfo.cs
@@ -269,3 +268,4 @@ C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArt
 C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\ref\LenselinkArtSales.dll
 C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.pdb
 C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.genruntimeconfig.cache
+C:\Users\mlens\Documents\WITC\Spring 2022\App Dev\LenselinkArtSales\LenselinkArtSales\obj\Debug\net6.0\LenselinkArtSales.csproj.AssemblyReference.cache

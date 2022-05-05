@@ -1,4 +1,4 @@
-﻿@model List<Product>
+﻿@model List<ProductImageListView>
 @{
     ViewBag.Title = "Product Manager";
 }
@@ -21,17 +21,20 @@
                 @foreach (var p in Model)
                 {
                     <tr>
-                        <td><img class="thumbnail" src="@p.ImageURL"/></td>
-                        <td>@p.Title</td>
-                        <td>@p.Description</td>
-                        <td>@p.Active</td>
+                        <td><a asp-action="Update" asp-route-id="@p.product.Id">
+                               <img class="thumbnail" alt="@p.FirstImageAlt" src="@Url.Content("~"+@p.FirstImageThumbnail)"/>
+                            </a>
+                        </td>
+                        <td>@p.product.Title</td>
+                        <td>@p.product.Description</td>
+                        <td>@p.product.Active</td>
                         <td>
                             <a asp-action="Update"
-                               asp-route-id="@p.Id">Update</a>
+                               asp-route-id="@p.product.Id">Update</a>
                         </td>
                         <td>
                             <a asp-action="Delete"
-                               asp-route-id="@p.Id">Delete</a>
+                               asp-route-id="@p.product.Id">Delete</a>
                         </td>
                     </tr>
                 }

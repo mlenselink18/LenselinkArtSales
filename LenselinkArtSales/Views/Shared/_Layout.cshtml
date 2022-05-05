@@ -1,4 +1,9 @@
 ﻿@using System.Security.Claims ;
+@using Microsoft.AspNetCore.Identity
+@using LenselinkArtSales.Areas.Identity.Data
+
+@inject SignInManager<LenselinkArtSalesUser> SignInManager
+@inject UserManager<LenselinkArtSalesUser> UserManager
 @{
     string controller =
         ViewContext.RouteData.Values["controller"].ToString();
@@ -10,10 +15,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ArtSales</title>
+    <title>@ViewData["Title"] - Art Sales</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ArtSales.styles.css" asp-append-version="true" />
+    <link rel="scripts" href="~/js/site.js" asp-append-version="true" />
+    @RenderSection("scripts", false)
 </head>
 <body>
     <header>
@@ -37,11 +43,16 @@
                         @(controller == "Home" && action == "About" ? "active" : "")"
                        asp-controller="Home" asp-action="About">About</a>
                 </div>
-
-                    <div class="navbar-nav navbar-right">
-                        <a class="nav-link"
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    @if (UserManager.GetUserName(User) == "admin@test.com")
+                    {
+                        <div class="navbar-nav navbar-right">
+                            <a class="nav-link"
                        asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a>
-                    </div>
+                        </div>
+                    }
+                }
             </nav>
             <nav>
                 <div class="container">
@@ -64,16 +75,11 @@
         </main>
     </div>
     <br />
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - ArtSales - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
+    <footer>
+        <hr />
+        <p>&copy; @DateTime.Now.Year - Art Sales</p>
     </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="~/js/site.js"></script>
 </body>
 </html>

@@ -20,11 +20,16 @@ namespace LenselinkArtSales.Controllers
         [Route("[controller]s/{id?}")]
         public IActionResult List(string id = "0")
         {
+            var model = new List<ProductImageListView>();
             List<Product> products = context.Products
                     .OrderBy(p => p.Id).ToList();
 
+            foreach (var product in products)
+            {
+                List<ProductImage> productImages = context.ProductImages.Where(r => product.Id.Equals(r.ProductId)).ToList();
 
-            var model = products;
+                model.Add(new ProductImageListView { product = product, productImages = productImages });
+            }
 
             return View(model);
         }
@@ -33,9 +38,11 @@ namespace LenselinkArtSales.Controllers
         {
             //var categories = context.Categories
             //    .OrderBy(c => c.CategoryID).ToList();
-
+            var model = new ProductImageListView();
             Product? product = context.Products.Find(id);
-
+            List<ProductImage> productImages = context.ProductImages.Where(r => product.Id.Equals(r.ProductId)).ToList();
+            model.product = product;
+            model.productImages = productImages;
             string imageFilename = "";
             if (product != null)
                 imageFilename = product.Title + "_m.png";
@@ -43,7 +50,7 @@ namespace LenselinkArtSales.Controllers
             //ViewBag.Categories = categories;
             ViewBag.ImageFilename = imageFilename;
 
-            return View(product);
+            return View(model);
         }
     }
 }

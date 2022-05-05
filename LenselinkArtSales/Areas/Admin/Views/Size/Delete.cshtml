@@ -1,0 +1,13 @@
+﻿@model PrintSize
+@{
+    ViewBag.Title = "Deactivate Print Size";
+}
+<h1>Confirm Deletion</h1>
+<h3>@Model.Dimensions</h3>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+    <a asp-action="List" class="btn btn-primary">Cancel</a>
+</form>
+

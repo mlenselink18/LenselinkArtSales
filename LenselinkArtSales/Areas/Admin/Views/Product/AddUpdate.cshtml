@@ -1,5 +1,5 @@
 ﻿<!-- this view is used for the Add action and the Update action -->
-@model Product
+@model ProductImageListView
 @{
     string title = ViewBag.Action + " Product";
     ViewBag.Title = title;    // sets title to "Add Product" or "Update Product"
@@ -19,30 +19,71 @@
     <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="form-group">
-        <label asp-for="Title">Title</label>
-        <input asp-for="Title" class="form-control">
+        <label asp-for="@Model.product.Title">Title</label>
+        <input asp-for="@Model.product.Title" class="form-control">
     </div>
 
     <div class="form-group">
-        <label asp-for="Description">Description</label>
-        <input asp-for="Description" class="form-control">
+        <label asp-for="@Model.product.Description">Description</label>
+        <input asp-for="@Model.product.Description" class="form-control">
     </div>
 
-    <div class="form-group">
-        <label asp-for="ImageFilePath">Image File Path</label>
-        <input asp-for="ImageFilePath" inputmode="url" class="form-control">
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Active">Active Status</label>
-        <select asp-for="Active">
+        <div class="form-group">
+        <label asp-for="@Model.product.Active">Product Active Status</label>
+        <select asp-for="@Model.product.Active">
             <option value="True">Active</option>
             <option value="False">Inactive</option>
         </select>
     </div>
 
-    <input type="hidden" asp-for="Id" />
+    <h2>
+        Product Images
+    </h2>
+
+    <hr />
+@*    <div class="form-group">
+        <label asp-for="@Model.product.ImageFilePath">Image File Path</label>
+        <input asp-for="@Model.product.ImageFilePath" inputmode="url" class="form-control">
+    </div>*@
+    <div id="ImageList">
+        @if (@Model.productImagesDisplay == null || @Model.productImagesDisplay.Count == 0) {
+            <p>No images found.</p>
+        } else {
+        @for (int i=0; i < @Model.productImagesDisplay.Count; i++)
+        {
+            <div class="form-group">
+                <img class="thumbnail" alt="@Model.productImagesDisplay[i].FileName" src="@Url.Content("~"+@Model.productImagesDisplay[i].FullPath)"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.productImagesDisplay[i].FilePath">Image</label>
+                <input asp-for="@Model.productImagesDisplay[i].FilePath" type="file" id="myFile" name="filepath">
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.productImagesDisplay[i].FileName">File Name :</label>
+                @Html.DisplayFor(ri => @Model.productImagesDisplay[i].FileName)
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.productImagesDisplay[i].Active">Image Visible</label>
+                <select asp-for="@Model.productImagesDisplay[i].Active">
+                    <option value="True">Active</option>
+                    <option value="False">Inactive</option>
+                </select>
+                <input type="hidden" asp-for="@Model.productImagesDisplay[i].Id" />
+            </div>
+            <div class="form-group">
+                <a href="#" onclick="$(this).parent().remove();">Remove Image</a>
+                <input type="button" onclick="RemoveImage()" value="Remove Image" />
+            </div>
+            <hr />
+        }
+        }
+    </div>
+
+    <input type="button" onclick="ShowAlertBubble()" value="Add New Image" class="btn btn-success" />
     <br />
-    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+    <input type="hidden" asp-for="@Model.product.Id" />
+    <br />
+    <button type="submit" onclick="AlertUpdate()" class="btn btn-primary">@ViewBag.Action</button>
     <a asp-action="List" class="btn btn-primary">Cancel</a>
 </form>
+

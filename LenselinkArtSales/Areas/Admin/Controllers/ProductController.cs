@@ -24,10 +24,17 @@ namespace LenselinkArtSales.Areas.Admin.Controllers
         [Route("[area]/[controller]s/{id?}")]
         public IActionResult List(string id = "All")
         {
+            var model = new List<ProductImageListView>();
             List<Product> products = context.Products
                     .OrderBy(p => p.Id).ToList();
 
-            var model = products;
+            foreach(var product in products)
+            {
+                List<ProductImage> productImages = context.ProductImages.Where(r => product.Id.Equals(r.ProductId)).ToList();
+
+                model.Add(new ProductImageListView { product = product, productImages = productImages });
+            }
+            //var model = products;
             //{
             //    Products = products,
             //    SelectedCategory = id
@@ -41,39 +48,60 @@ namespace LenselinkArtSales.Areas.Admin.Controllers
         {
             Product product = new Product();
             //product.Category = context.Categories.Find(1);
+            var model = new ProductImageListView();
 
             ViewBag.Action = "Add";
             //ViewBag.Categories = categories;
 
-            return View("AddUpdate", product);
+            return View("AddUpdate", model);
         }
 
         [HttpGet]
         public IActionResult Update(int id)
         {
+            ProductImageListView item = new ProductImageListView();
             Product product = context.Products.FirstOrDefault(p => p.Id == id);
+            List<ProductImage> productImages = context.ProductImages.Where(r => product.Id.Equals(r.ProductId)).ToList();
 
+            item.product = product;
+            item.productImages = productImages;
             ViewBag.Action = "Update";
             //ViewBag.Categories = categories;
 
-            return View("AddUpdate", product);
+            return View("AddUpdate", item);
         }
 
         [HttpPost]
-        public IActionResult Update(Product product)
+        public IActionResult Update(ProductImageListView item)
         {
             if (ModelState.IsValid)
             {
                 string userMessage = "";
-                if (product.Id == 0)
+                //var images = form["myFile"].ToArray();
+                //List<ProductImage> imageUploads = new List<ProductImage>();
+                //foreach (var image in images)
+                //{
+                //    var newImage = new ProductImage();
+                //    //if(image.Id == 0)
+                //    //{
+
+                //    //    context.ProductImages.Add(image);
+                //    //}
+                //    //else
+                //    //{
+                //    //    context.ProductImages.Update(image);
+                //    //}
+                //}
+
+                if (item.product.Id == 0)
                 {
-                    context.Products.Add(product);
-                    userMessage = "You just added the product " + product.Title;
+                    context.Products.Add(item.product);
+                    userMessage = "You just added the product " + item.product.Title;
                 }
                 else
                 {
-                    context.Products.Update(product);
-                    userMessage = "You just updated the product " + product.Title;
+                    context.Products.Update(item.product);
+                    userMessage = "You just updated the product " + item.product.Title;
                 }
                 context.SaveChanges();
                 TempData["UserMessage"] = userMessage;
@@ -83,7 +111,7 @@ namespace LenselinkArtSales.Areas.Admin.Controllers
             else
             {
                 ViewBag.Action = "Save";
-                return View("AddUpdate", product);
+                return View("AddUpdate", item);
             }
         }
 

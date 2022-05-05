@@ -1,0 +1,17 @@
+﻿@model ProductImage
+    <div class="form-group">
+        <label asp-for="FilePath">Image</label>
+        <input asp-for="FilePath" type="file" id="myFile" name="filepath">
+    </div>
+    <div class="form-group">
+        <label asp-for="FileName">File Name</label>
+        <input asp-for="FileName" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Active">Image Visible</label>
+        <select asp-for="Active">
+            <option value="True">Active</option>
+            <option value="False">Inactive</option>
+        </select>
+        <input type="hidden" asp-for="Id" />
+    </div>

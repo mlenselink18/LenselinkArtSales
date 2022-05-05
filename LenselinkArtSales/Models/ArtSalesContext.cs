@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -7,15 +9,27 @@ namespace LenselinkArtSales.Models
 {
     public partial class ArtSalesContext : DbContext
     {
+
         public ArtSalesContext()
         {
+
         }
 
         public ArtSalesContext(DbContextOptions<ArtSalesContext> options)
             : base(options)
         {
-            ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
+
+        //public ArtSalesContext(DbContextOptions<ArtSalesContext> options)
+        //: base(options)
+        //{
+        //}
+
+        //public ArtSalesContext(DbContextOptions<ArtSalesContext> options)
+        //    : base(options)
+        //{
+        //    ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
+        //}
 
         public virtual DbSet<ChangeLog> ChangeLogs { get; set; } = null!;
         public virtual DbSet<Comment> Comments { get; set; } = null!;
@@ -47,6 +61,7 @@ namespace LenselinkArtSales.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<ChangeLog>(entity =>
             {
                 entity.ToTable("ChangeLog");

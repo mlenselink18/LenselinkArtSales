@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tqtHo7wVLkO2cEGTv6owXBTkBylfRDpTj6SoMoBnMjA=",
+  "Hash": "J9tG86ENuWi3kXp2ts/7Fo2QioDZLTqVfGRblMQCeLU=",
   "Source": "LenselinkArtSales",
   "BasePath": "_content/LenselinkArtSales",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mlens\\Documents\\WITC\\Spring 2022\\App Dev\\LenselinkArtSales\\LenselinkArtSales\\wwwroot\\js\\adminProduct.js",
+      "SourceId": "LenselinkArtSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mlens\\Documents\\WITC\\Spring 2022\\App Dev\\LenselinkArtSales\\LenselinkArtSales\\wwwroot\\",
+      "BasePath": "_content/LenselinkArtSales",
+      "RelativePath": "js/adminProduct.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adminProduct.js"
+    },
+    {
+      "Identity": "C:\\Users\\mlens\\Documents\\WITC\\Spring 2022\\App Dev\\LenselinkArtSales\\LenselinkArtSales\\wwwroot\\js\\ImageDetails.js",
+      "SourceId": "LenselinkArtSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mlens\\Documents\\WITC\\Spring 2022\\App Dev\\LenselinkArtSales\\LenselinkArtSales\\wwwroot\\",
+      "BasePath": "_content/LenselinkArtSales",
+      "RelativePath": "js/ImageDetails.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ImageDetails.js"
     },
     {
       "Identity": "C:\\Users\\mlens\\Documents\\WITC\\Spring 2022\\App Dev\\LenselinkArtSales\\LenselinkArtSales\\wwwroot\\js\\site.js",

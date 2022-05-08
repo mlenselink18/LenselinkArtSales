@@ -5,44 +5,36 @@
 
 <h1>Product Details</h1>
 <div class="row">
-    <div class="col-sm-4">
+@*    <div class="col-sm-4">
         <a href="@Model.FirstImageThumbnail" target="_blank"><img src="@Url.Content("~"+@Model.FirstImageThumbnail)" 
              alt="@Model.product.Title Image" 
              class="img-responsive center-block"/></a>
-    </div>
-    <div class="slideshow-container">
+    </div>*@
+    @if(@Model.productImages != null && @Model.productImages.Count > 0)
+    {
+        <div class="slideshow-container">
 
-      <!-- Full images with numbers and message Info -->
-      <div class="Containers">
-        <div class="MessageInfo">1 / 3</div>
-        <img src="/Media/Images/SandDunes.jpg" style="width:100%">
-        <div class="Info">First caption</div>
-      </div>
+          @for(int i=0; i < @Model.productImagesDisplay.Count; i++)
+            {
+                <div class="Containers">
+                <div class="MessageInfo">i / @Model.productImages.Count</div>
+                <img src="@Model.productImages[i].FullPath" style="width:100%">
+                <div class="Info">@Model.productImages[i].FileName</div>
+                </div>
+            }
 
-      <div class="Containers">
-        <div class="MessageInfo">2 / 3</div>
-        <img src="/Media/Images/MountainSunset.jpg" style="width:100%">
-        <div class="Info">Second Caption</div>
-      </div>
+          <!-- Back and forward buttons -->
+          <a class="Back" id="btnMinusSlide">&#10094;</a>
+          <a class="forward" id="btnPlusSlide">&#10095;</a>
+        </div>
+    }
+    else
+    {
+        <img alt="@Model.FirstImageAlt" src="@Url.Content("~"+@Model.FirstImageThumbnail)" class="thumbnail">
+    }
 
-      <div class="Containers">
-        <div class="MessageInfo">3 / 3</div>
-        <img src="/Media/Images/Coastline.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <!-- Back and forward buttons -->
-      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-    </div>
     <br>
 
-    <!-- The circles/dots -->
-    <div style="text-align:center">
-      <span class="dots" onclick="currentSlide(1)"></span>
-      <span class="dots" onclick="currentSlide(2)"></span>
-      <span class="dots" onclick="currentSlide(3)"></span>
-    </div> 
     <div class="col-sm-8">
         <h2>@Model.product.Title</h2>
         <table class="table table-bordered table-striped">
@@ -54,5 +46,5 @@
         <a asp-controller="Cart" asp-action="Add"
             asp-route-id="@Model.product.Title" class="btn btn-primary">Add to Cart</a>
     </div>
-    <input type="button" onclick="ShowAlertBubble()" value="JS Test Button" class="btn btn-success" />
 </div>
+<script language="JavaScript" type="text/javascript" src="~/js/ImageDetails.js"></script>

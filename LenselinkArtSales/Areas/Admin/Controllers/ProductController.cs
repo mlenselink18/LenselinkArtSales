@@ -66,7 +66,43 @@ namespace LenselinkArtSales.Areas.Admin.Controllers
             item.product = product;
             item.productImages = productImages;
             ViewBag.Action = "Update";
-            //ViewBag.Categories = categories;
+
+            return View("AddUpdate", item);
+        }
+
+        [Route("[area]/[controller]/Update/{id}/AddImage")]
+        public IActionResult AddImage(int id)
+        {
+            ProductImageListView item = new ProductImageListView();
+            Product product = context.Products.FirstOrDefault(p => p.Id == id);
+            List<ProductImage> productImages = context.ProductImages.Where(r => product.Id.Equals(r.ProductId)).ToList();
+            productImages.Add(new ProductImage());
+
+            item.product = product;
+            item.productImages = productImages;
+            ViewBag.Action = "Update";
+
+            return View("AddUpdate", item);
+        }
+
+        [Route("[area]/[controller]/Update/{id}/RemoveImage/{imageId}")]
+        public IActionResult RemoveImage(int id, int imageId)
+        {
+            ProductImageListView item = new ProductImageListView();
+            Product product = context.Products.FirstOrDefault(p => p.Id == id);
+            List<ProductImage> productImages = context.ProductImages.Where(r => product.Id.Equals(r.ProductId)).ToList();
+
+            if (imageId == 0)
+            {
+                productImages.Add(new ProductImage());
+            }
+            {
+                productImages.Remove(productImages.Where(p => p.Id == id).First());
+            }
+
+            item.product = product;
+            item.productImages = productImages;
+            ViewBag.Action = "Update";
 
             return View("AddUpdate", item);
         }
@@ -77,22 +113,6 @@ namespace LenselinkArtSales.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 string userMessage = "";
-                //var images = form["myFile"].ToArray();
-                //List<ProductImage> imageUploads = new List<ProductImage>();
-                //foreach (var image in images)
-                //{
-                //    var newImage = new ProductImage();
-                //    //if(image.Id == 0)
-                //    //{
-
-                //    //    context.ProductImages.Add(image);
-                //    //}
-                //    //else
-                //    //{
-                //    //    context.ProductImages.Update(image);
-                //    //}
-                //}
-
                 if (item.product.Id == 0)
                 {
                     context.Products.Add(item.product);

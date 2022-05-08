@@ -16,7 +16,7 @@
                     {
                         Id = 0,
                         ProductId = product.Id,
-                        FilePath = "https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/288/2019/03/28062612/Image-Coming-Soon-Placeholder.png",
+                        FilePath = "/Media/Images/ComingSoon.jpg",
                         FileName = "No Image",
                         Active = false
                     });
@@ -36,13 +36,13 @@
             {
                 var display = "/Media/Images/ComingSoon.jpg";
 
-                if(productImages == null)
+                if(productImages == null || productImages.Count == 0)
                 {
                     display = "/Media/Images/ComingSoon.jpg";
                 }
                 else
                 {
-                    var firstImage = productImages.First();
+                    var firstImage = productImagesDisplay.First();
                     display = firstImage.FullPath;
                 }
 

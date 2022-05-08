@@ -71,19 +71,18 @@
                 <input type="hidden" asp-for="@Model.productImagesDisplay[i].Id" />
             </div>
             <div class="form-group">
-                <a href="#" onclick="$(this).parent().remove();">Remove Image</a>
-                <input type="button" onclick="RemoveImage()" value="Remove Image" />
+                  <a href="../Update/@Model.product.Id/RemoveImage/@Model.productImagesDisplay[i].Id" id="btnRemoveImage" class="btn btn-primary"> Remove Image</a>
             </div>
             <hr />
         }
         }
     </div>
-
-    <input type="button" onclick="ShowAlertBubble()" value="Add New Image" class="btn btn-success" />
+    <a href="../Update/@Model.product.Id/AddImage" class="btn btn-primary">Add Image</a>
     <br />
     <input type="hidden" asp-for="@Model.product.Id" />
     <br />
-    <button type="submit" onclick="AlertUpdate()" class="btn btn-primary">@ViewBag.Action</button>
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
     <a asp-action="List" class="btn btn-primary">Cancel</a>
 </form>
 
+<script language="JavaScript" type="text/javascript" src="~/js/adminProduct.js"></script>
